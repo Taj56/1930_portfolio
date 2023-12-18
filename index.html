@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/hero.css">
+    <title>1930 Media</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list sidebar">
+                <li class="nav-item" onclick=hideSidebar()><a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#introduction" class="nav-link">Introduction</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#hightlight" class="nav-link">Client Hightlight</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Get In Touch</a></li>
+            </ul>
+
+            <ul class="nav-list">
+                <li class="nav-item hideOnMobile"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item hideOnMobile"><a href="#introduction" class="nav-link">Introduction</a></li>
+                <li class="nav-item hideOnMobile"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item hideOnMobile"><a href="#hightlight" class="nav-link">Client Hightlight</a></li>
+                <li class="nav-item hideOnMobile"><a href="#contact" class="nav-link">Get In Touch</a></li>
+                <li class="nav-item menu-btn" onclick=showSidebar()><a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="welc">
+            <img src="/assets/images/LOGO ASSETS (4).png" alt="1930 media" class="logo">
+            <h1 class="title">Welcome To <br> <span>1930 Media!</span></h1>
+            <h6 class="slogan">building brands beyond trends</h6>
+        </div>
+
+        <div class="img-con">
+            <img src="/assets/images/hero-img.png" alt="image of zerron" class="hero-img">
+        </div>
+    </section>
+    <script src="JS/app.js"></script>
+</body>
+</html>
