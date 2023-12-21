@@ -12,7 +12,7 @@
     --primary-clr: #004AAD;
     --white: #fff;
     --black: #000;
-    --dark: hsla(210, 26%, 7%, 0.7);;
+    --dark: hsla(210, 26%, 7%, 0.7);
 }
 html {
     scroll-behavior: smooth;
@@ -40,11 +40,13 @@ body {
 
 .nav-link {
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
+    font-size: 15px;
     font-weight: 600;
     color: var(--dark);
+    z-index: 2;
     text-transform: uppercase;
 }
 
@@ -76,9 +78,10 @@ body {
 
 .menu-btn {
     display: none;
+    z-index: 998;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 766px) {
     .hideOnMobile {
         display: none;
     }
