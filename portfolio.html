@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list sidebar">
+                <li class="nav-item" onclick=hideSidebar()><a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/index.html" class="nav-link">Introduction</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#hightlight" class="nav-link">Client Hightlight</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Get In Touch</a></li>
+            </ul>
+
+            <ul class="nav-list">
+                <li class="nav-item hideOnMobile"><a href="/index.html" class="nav-link">Home</a></li>
+                <li class="nav-item hideOnMobile"><a href="/index.html" class="nav-link">Introduction</a></li>
+                <li class="nav-item hideOnMobile"><a href="#" class="nav-link">Portfolio</a></li>
+                <li class="nav-item hideOnMobile"><a href="#hightlight" class="nav-link">Client Hightlight</a></li>
+                <li class="nav-item hideOnMobile"><a href="#contact" class="nav-link">Get In Touch</a></li>
+                <li class="nav-item menu-btn" onclick=showSidebar()><a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" fill="#0d1216b3" width="28"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="JS/app.js"></script>
+</body>
+</html>

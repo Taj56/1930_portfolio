@@ -1,0 +1,186 @@
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 5px;
+    /* margin-top: 600px; */
+}
+
+.up {
+    margin-top: 600px;
+}
+
+.thumb {
+    width: 250px;
+}
+
+.row img {
+    width: 200px;
+}
+
+.top-row img, .bot-row img {
+    margin-bottom: -55px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.c-title {
+    font-size: 30px;
+}
+
+.sub {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.tel {
+    font-weight: 800;
+}
+
+.mail-para {
+    margin-bottom: 10px;
+}
+
+.closing {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+    .up {
+        margin-top: 800px;
+    }
+
+    .ex-row {
+        flex-direction: row;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .up {
+        margin-top: 900px;
+    }
+
+    .mid {
+        flex-direction: row;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .up {
+        margin-top: 1150px;
+    }
+
+    .c-title {
+        font-size: 50px;
+    }
+
+    .sub {
+        font-size: 45px;
+    }
+    
+    .contact-info a {
+        font-size: 35px;
+    }
+
+    .row img {
+        width: 300px;
+    }
+
+    .top-row img, .bot-row img {
+        margin-bottom: auto;
+    }
+
+    
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .up {
+        margin-top: -300px;
+    }
+    .contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .row img {
+        width: 240px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .up {
+        margin-top: 300px;
+    }
+
+    .tc {
+        flex-direction: row;
+    }
+
+    .thumb {
+        width: 350px;
+    }
+
+    .c-title {
+        font-size: 65px;
+    }
+
+    .sub {
+        font-size: 55px;
+    }
+    
+    .contact-info a {
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+    .closing {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .row img {
+        width: 260px;
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
