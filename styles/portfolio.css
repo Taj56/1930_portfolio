@@ -5,8 +5,92 @@
     --dark: hsla(210, 26%, 7%, 0.7);
 }
 
+.portfolio {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.pvc {
+    margin-bottom: 20px;
+}
+
+.port-title {
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+/* SOCIAL MEDIA POST DESIGN */
+
+.port-sub {
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.port-img-con{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.port-img-con img:first-child{
+    margin-top: 30px;
+}
+
+.port-img-con img {
+    width: 335px;
+}
+
+/* POSTERS */
+
+.pfs .sub {
+    margin-top: 30px;
+}
+
+/* SOCIAL MEDIA VIDEOS */
+
+.smv .sub {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.port-img-con video:first-child{
+    margin-top: 30px;
+}
+
+.port-vid-con video {
+    width: 335px;
+}
+
 /* xs */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {
+    .port-title {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    
+    .port-sub {
+        font-size: 35px;
+    }
+    
+    .port-img-con img {
+        width: 430px;
+    }
+
+    .port-vid-con video {
+        width: 430px;
+    }
+}
 
 /* sm */
 /* @media (min-width: 640px) {} */
@@ -15,10 +99,45 @@
 /* @media (min-width: 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .port-img-con{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .port-img-con img {
+        width: 320px;
+        margin-top: 30px;
+    }
+
+    .port-vid-con video {
+        width: 320px;
+        margin-top: 30px;
+    }
+}
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .port-title {
+        font-size: 55px;
+        margin-top: 30px;
+    }
+    
+    .port-sub {
+        font-size: 45px;
+    }
+    .port-img-con{
+        gap: 10px;
+    }
+
+    .port-img-con img {
+        width: 400px;
+    }
+
+    .port-vid-con video {
+        width: 400px;
+    }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
