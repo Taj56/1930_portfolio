@@ -1,0 +1,92 @@
+:root {
+    --primary-clr: #004AAD;
+    --white: #fff;
+    --black: #000;
+    --dark: hsla(210, 26%, 7%, 0.7);
+}
+
+.client {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.title {
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.island-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.cic {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.cic img {
+    width: 300px;
+    margin-top: -80px;
+}
+
+.island-con p {
+    margin-top: -90px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 39ch;
+    font-weight: bold;
+    color: var(--white);
+    font-family: 'Noto Sans Tai Viet', sans-serif;
+}
+
+.cic .btn {
+    color: var(--white);
+    background-color: var(--primary-clr);
+    padding: 5px;
+    width: 200px;
+}
+
+.cl-con {
+    margin-bottom: 30px;
+}
+
+.island-vid {
+    width: 335px;
+    margin-top: 20px;
+}
+
+.cl-con .art-para {
+    margin-top: -30px;
+}
+
+.cl-con .crest {
+    width: 350px;
+    margin-top: -40px;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

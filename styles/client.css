@@ -1,0 +1,533 @@
+:root {
+    --primary-clr: #004AAD;
+    --white: #fff;
+    --black: #000;
+    --dark: hsla(210, 26%, 7%, 0.7);
+}
+
+.client {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5px;
+}
+
+.project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    width: 300px;
+    margin-top: -60px;
+    margin-left: -20px;
+}
+
+.para {
+    color: var(--white);
+    font-family: 'Noto Sans Tai Viet', sans-serif;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+.btn {
+    background-color: var(--primary-clr);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 30px;
+    width: 200px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.vid {
+    width: 335px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* art */
+.art-logo {
+    margin-left: -50px;
+}
+
+.art-para {
+    margin-top: -40px;
+}
+
+.crest {
+    width: 320px;
+    margin-top: -40px;
+}
+
+.crest-btn {
+    width: 250px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* jelly */
+
+.jelly-logo {
+    margin-left: -30px;
+}
+
+.jelly {
+    width: 330px;
+}
+
+/* gloria */
+
+.gloria-logo {
+    width: 350px;
+    margin-left: -50px;
+}
+
+.gloria-para {
+    margin-top: -55px;
+}
+
+.qr-con {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.qr-sq {
+    width: 250px;
+}
+
+.qr-por {
+    width: 250px;
+}
+
+/* biz */
+
+.jtda-img {
+    width: 150px;
+    margin-left: -30px;
+}
+
+.biztech-logo {
+    margin-top: -180px;
+    margin-left: -40px;
+    width: 350px;
+}
+
+.biztech-para {
+    margin-bottom: 40px;
+    margin-top: -120px;
+}
+
+.biz-btn {
+    width: 250px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.conference-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.conference {
+    width: 330px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .title {
+        font-size: 55px;
+        margin-top: 10px;
+    }
+
+    /* island */
+
+    .island-logo {
+        width: 350px;
+        margin-left: -20px;
+    }
+
+    .island-para {
+        margin-top: -110px;
+    }
+
+    .art-logo {
+        margin-left: -50px;
+    }
+
+    .jelly-logo {
+        margin-left: -20px;
+    }
+
+    .gloria-logo {
+        margin-left: -40px;
+    }
+
+    .biztech-logo {
+        margin-left: -30px;
+    }
+
+    .jtda-img {
+        margin-left: -20px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .island-logo {
+        width: 400px;
+        margin-top: -100px;
+        margin-left: -20px;
+    }
+
+    .vid {
+        width: 400px;
+    }
+
+    .art-logo {
+        width: 400px;
+        margin-left: -60px;
+    }
+
+    .jelly-logo {
+        width: 400px;
+        margin-left: -30px;
+    }
+
+    .jelly-para {
+        margin-top: -120px;
+    }
+
+    .jelly {
+        width: 380px;
+    }
+
+    .gloria-logo {
+        width: 400px;
+        margin-left: -50px;
+    }
+
+    .qr-por, .qr-sq {
+        width: 300px;
+    }
+
+    .biztech-logo {
+        width: 400px;
+        margin-left: -180px;
+    }
+
+    .jtda-img {
+        margin-left: 0px;
+        margin-bottom: 210px;
+    }
+
+    .biztech-para {
+        margin-top: -130px;
+    }
+
+    .conference {
+        width: 400px;
+    }
+
+}
+
+/* md */
+@media (min-width: 768px) {
+    .island-logo {
+        margin-left: -20px;
+    }
+
+    .art-logo {
+        margin-left: -60px;
+    }
+
+    .jelly-logo {
+        margin-left: -40px;
+    }
+
+    .jelly {
+        width: 450px;
+    }
+
+    .gloria-logo {
+        margin-left: -50px;
+    }
+
+    .qr-con {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .biztech-logo {
+        margin-left: -150px;
+    }
+
+    .jtda-img {
+        margin-left: -30px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .island {
+        flex-direction: row;
+    }
+
+
+    .island-logo {
+        margin-left: 40px;
+        width: 330px;
+        margin-top: -100px;
+        z-index: -1;
+        /* border: 1px solid red; */
+    }
+
+    .island-para {
+        z-index: 0;
+        width: 60ch;
+        margin-left: 50px;
+    }
+
+    .island-btn {
+        margin-left: 50px;
+    }
+
+    .vid {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .art-con {
+        flex-direction: row;
+    }
+
+    .art-logo {
+        width: 330px;
+        /* border: 1px solid red; */
+        margin-left: -50px;
+    }
+
+    .art-para {
+        width: 60ch;
+    }
+
+    .crest-btn {
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    .crest {
+        width: 300px;
+    }
+
+    .reach-jelly {
+        flex-direction: row;
+    }
+
+    .jelly-logo {
+        margin-left: -40px;
+    }
+
+    .jelly-para {
+        width: 60ch;
+    }
+
+    .jelly {
+        width: 330px;
+    }
+
+    .gloria {
+        flex-direction: row;
+    }
+
+    .gloria-logo {
+        margin-left: -55px;
+        width: 300px;
+    }
+
+    .gloria-para {
+        width: 60ch;
+    }
+
+    .qr-con {
+        gap: 5px;
+    }
+
+    .qr-por, .qr-sq {
+        width: 150px;
+    }
+
+    .jtda {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .biztech-logo {
+        margin-left: -180px;
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .jtda-img {
+        margin-left: -10px;
+        margin-bottom: 150px;
+        width: 140px;
+    }
+
+    .biztech-para {
+        margin-top: -100px;
+        width: 60ch;
+    }
+
+    .biz-btn {
+        margin-left: 0;
+    }
+
+    .conference {
+        width: 300px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+
+    .island-logo {
+        margin-left: -2px;
+        width: 400px;
+        margin-top: -100px;
+    }
+
+    .island-para {
+        z-index: 0;
+        width: 75ch;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .island-btn {
+        margin-left: -1px;
+    }
+
+    .vid {
+        width: 330px;
+        margin-left: 50px;
+    }
+
+    .art-con {
+        flex-direction: row;
+    }
+
+    .art-logo {
+        width: 330px;
+        /* border: 1px solid red; */
+        margin-left: -50px;
+    }
+
+    .art-para {
+        width: 75ch;
+        margin-left: 0;
+        margin-right: 50px;
+        font-size: 18px;
+    }
+
+    .crest-btn {
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    .crest {
+        width: 350px;
+    }
+
+    .reach-jelly {
+        margin-bottom: 60px;
+    }
+
+    .jelly-logo {
+        margin-left: -40px;
+    }
+
+    .jelly-para {
+        width: 75ch;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .jelly {
+        width: 350px;
+    }
+
+    .gloria-logo {
+        margin-left: -55px;
+        width: 300px;
+    }
+
+    .gloria-para {
+        width: 75ch;
+        font-size: 18px;
+        margin-right: 50px;
+        margin-left: 0;
+    }
+
+    .qr-con {
+        gap: 5px;
+    }
+
+    .qr-por, .qr-sq {
+        width: 180px;
+    }
+
+    .biztech-logo {
+        margin-left: -180px;
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .jtda-img {
+        margin-left: -10px;
+        margin-bottom: 150px;
+        width: 140px;
+    }
+
+    .biztech-para {
+        margin-top: -100px;
+        width: 75ch;
+        font-size: 18px;
+        margin-right: 50px;
+        margin-left: 0;
+    }
+
+    .biz-btn {
+        margin-left: 0;
+    }
+
+    .conference {
+        width: 300px;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
