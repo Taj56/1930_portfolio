@@ -180,7 +180,42 @@
 
     .row img {
         width: 260px;
+    }
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+    .up {
+        margin-top: -100px;
+    }
+
+    .tc {
+        flex-direction: row;
+    }
+
+    .thumb {
+        width: 350px;
+    }
+
+    .c-title {
+        font-size: 65px;
+    }
+
+    .sub {
+        font-size: 55px;
+    }
+    
+    .contact-info a {
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+    .closing {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .row img {
+        width: 260px;
+    }
+}

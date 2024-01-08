@@ -327,4 +327,46 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+    /* .intro {
+        border: 1px solid red;
+    } */
+
+    .info {
+        margin-top: -250px;
+        margin-left: 65px;
+        gap: 10px;
+    }
+
+    .intro .intro-title {
+        font-size: 80px
+    }
+
+    .info p {
+        width: 40ch;
+        line-height: 35px;
+        font-size: 30px;
+    }
+
+    .intro img {
+        width: 550px;
+    }
+
+    .list {
+        margin-top: -350px;
+    }
+
+    .list .list-head {
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+    
+    .list ul li {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .intro .blue {
+        margin-top: -250px;
+    }
+}
